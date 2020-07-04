@@ -9,4 +9,4 @@ While this app might look like a full-fledged dictionary, it does not do a coupl
 - It is text-only. It does not read out the word for you.
 - It does not lookup from the web. All data is kept local.
 
-This app is developed by an individual as a technical showcase and contribution to others. The word list is scraped from OJAD - Online Japanese Accent Dictionary with notice. Credit goes to their team. The database file is located at /app/main/assets/conjugator.db.
+This app is developed by an individual as a technical showcase and contribution to others. The word list is scraped from OJAD - Online Japanese Accent Dictionary with notice. Credit goes to their team. The database file is located at /app/src/main/assets/conjugator.db.
