@@ -1,5 +1,6 @@
 package com.gmail.wklodeveloper.conjugator;
 
+import android.util.Log;
 import android.widget.TextView;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -29,13 +30,20 @@ public class Utils {
         Furigana f = new Furigana();
         String pre = kanjiForm.substring(0, begin);
         String post = kanjiForm.substring(end);
-        f.furigana = hiragana.replace(pre, "").replace(post, "");
-        f.furiganaEquivalentKanjiForm = kanjiForm.replace(pre, "").replace(post, "");
+        String replacePre = hiragana.replaceFirst(pre, "");
+        f.furigana = replaceLast(replacePre, post, "");
+        replacePre = kanjiForm.replaceFirst(pre, "");
+        f.furiganaEquivalentKanjiForm = replaceLast(replacePre, post, "");
 //        Log.d("Utils", "original string: " + kanjiForm + ", furigana: " + f.furigana + ", pre: " + pre + ", post: " + post);
         f.begin = begin;
         f.end = begin + f.furiganaEquivalentKanjiForm.length();
         return f;
     }
+
+    public static String replaceLast(String text, String regex, String replacement) {
+        return text.replaceFirst("(?s)(.*)" + regex, "$1" + replacement);
+    }
+
 
     public static int findForm(String[] array, String keyword) {
 //        Log.d("Utils", "keyword: " + keyword);
