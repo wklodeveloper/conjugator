@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">活用検索</string>
+
+    <string name="main_title">動詞・い形容詞・な形容詞</string>
+    <string name="main_description">活用</string>
+    <string name="main_hint">検索</string>
+    <string name="main_switch_label">アクセントを表示</string>
+    <string name="main_empty_str">なし</string>
+
+    <string name="detail_group_1">1グループの動詞</string>
+    <string name="detail_group_2">2グループの動詞</string>
+    <string name="detail_group_3">3グループの動詞</string>
+    <string name="detail_i_adj">い形容詞</string>
+    <string name="detail_na_adj">な形容詞</string>
+    <string name="detail_1_1">辞書形</string>
+    <string name="detail_1_2">〜ます形</string>
+    <string name="detail_1_3">〜て形</string>
+    <string name="detail_1_4">〜た形</string>
+    <string name="detail_1_5">〜ない形</string>
+    <string name="detail_1_6">〜なかった形</string>
+    <string name="detail_1_7">〜ば形</string>
+    <string name="detail_1_8">使役形</string>
+    <string name="detail_1_9">受身形</string>
+    <string name="detail_1_10">命令形</string>
+    <string name="detail_1_11">可能形</string>
+    <string name="detail_1_12">〜う形</string>
+    <string name="detail_2_1">〜い + N形</string>
+    <string name="detail_2_2">〜いです形</string>
+    <string name="detail_2_3">〜くて形</string>
+    <string name="detail_2_4">〜かった形</string>
+    <string name="detail_2_5">〜くない形</string>
+    <string name="detail_2_6">〜くなかった形</string>
+    <string name="detail_2_7">〜ければ形</string>
+    <string name="detail_2_8">〜い。形</string>
+    <string name="detail_2_9">〜く形</string>
+    <string name="detail_3_1">〜な + N形</string>
+    <string name="detail_3_2">〜です形</string>
+    <string name="detail_3_3">〜で形</string>
+    <string name="detail_3_4">〜だった形</string>
+    <string name="detail_3_5">〜じゃない形</string>
+    <string name="detail_3_6">〜じゃなかった形</string>
+    <string name="detail_3_7">〜ならば形</string>
+    <string name="detail_3_8">〜だ形</string>
+    <string name="detail_3_9">〜に形</string>
+</resources>

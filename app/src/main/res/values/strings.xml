@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Conjugator</string>
+
+    <string name="main_title">Verbs・I-adjectives・Na-adjectives</string>
+    <string name="main_description">Conjugations</string>
+    <string name="main_hint">Search</string>
+    <string name="main_switch_label">Mark accent</string>
+    <string name="main_empty_str">No result</string>
+
+    <string name="detail_group_1">Group 1 Verb</string>
+    <string name="detail_group_2">Group 2 Verb</string>
+    <string name="detail_group_3">Group 3 Verb</string>
+    <string name="detail_i_adj">I-adjective</string>
+    <string name="detail_na_adj">Na-adjective</string>
+    <string name="detail_1_1">Dictionary form</string>
+    <string name="detail_1_2">〜masu</string>
+    <string name="detail_1_3">〜te</string>
+    <string name="detail_1_4">〜ta</string>
+    <string name="detail_1_5">〜nai</string>
+    <string name="detail_1_6">〜nakatta</string>
+    <string name="detail_1_7">〜ba</string>
+    <string name="detail_1_8">Causative</string>
+    <string name="detail_1_9">Passive</string>
+    <string name="detail_1_10">Imperative</string>
+    <string name="detail_1_11">Potential</string>
+    <string name="detail_1_12">Volitional</string>
+    <string name="detail_2_1">〜i+N</string>
+    <string name="detail_2_2">〜idesu</string>
+    <string name="detail_2_3">〜kute</string>
+    <string name="detail_2_4">〜katta</string>
+    <string name="detail_2_5">〜kunai</string>
+    <string name="detail_2_6">〜kunakatta</string>
+    <string name="detail_2_7">〜kereba</string>
+    <string name="detail_2_8">〜i</string>
+    <string name="detail_2_9">〜ku</string>
+    <string name="detail_3_1">〜na+N</string>
+    <string name="detail_3_2">〜desu</string>
+    <string name="detail_3_3">〜de</string>
+    <string name="detail_3_4">〜datta</string>
+    <string name="detail_3_5">〜janai</string>
+    <string name="detail_3_6">〜janakatta</string>
+    <string name="detail_3_7">〜naraba</string>
+    <string name="detail_3_8">〜da</string>
+    <string name="detail_3_9">〜ni</string>
+</resources>
